@@ -1,0 +1,492 @@
+{
+ "X": [
+  {
+   "class_id": 3,
+   "index": 0,
+   "logical_bit": 1,
+   "name": "Z0",
+   "support": [
+    0
+   ],
+   "syndrome": 1,
+   "syndrome_hex": "0x1"
+  },
+  {
+   "class_id": 6,
+   "index": 1,
+   "logical_bit": 0,
+   "name": "Z1",
+   "support": [
+    1
+   ],
+   "syndrome": 3,
+   "syndrome_hex": "0x3"
+  },
+  {
+   "class_id": 4,
+   "index": 2,
+   "logical_bit": 0,
+   "name": "Z2",
+   "support": [
+    2
+   ],
+   "syndrome": 2,
+   "syndrome_hex": "0x2"
+  },
+  {
+   "class_id": 9,
+   "index": 3,
+   "logical_bit": 1,
+   "name": "Z3",
+   "support": [
+    3
+   ],
+   "syndrome": 4,
+   "syndrome_hex": "0x4"
+  },
+  {
+   "class_id": 12,
+   "index": 4,
+   "logical_bit": 0,
+   "name": "Z4",
+   "support": [
+    4
+   ],
+   "syndrome": 6,
+   "syndrome_hex": "0x6"
+  },
+  {
+   "class_id": 4,
+   "index": 5,
+   "logical_bit": 0,
+   "name": "Z5",
+   "support": [
+    5
+   ],
+   "syndrome": 2,
+   "syndrome_hex": "0x2"
+  },
+  {
+   "class_id": 9,
+   "index": 6,
+   "logical_bit": 1,
+   "name": "Z6",
+   "support": [
+    6
+   ],
+   "syndrome": 4,
+   "syndrome_hex": "0x4"
+  },
+  {
+   "class_id": 24,
+   "index": 7,
+   "logical_bit": 0,
+   "name": "Z7",
+   "support": [
+    7
+   ],
+   "syndrome": 12,
+   "syndrome_hex": "0xc"
+  },
+  {
+   "class_id": 16,
+   "index": 8,
+   "logical_bit": 0,
+   "name": "Z8",
+   "support": [
+    8
+   ],
+   "syndrome": 8,
+   "syndrome_hex": "0x8"
+  },
+  {
+   "class_id": 5,
+   "index": 9,
+   "logical_bit": 1,
+   "name": "Z0Z1",
+   "support": [
+    0,
+    1
+   ],
+   "syndrome": 2,
+   "syndrome_hex": "0x2"
+  },
+  {
+   "class_id": 2,
+   "index": 10,
+   "logical_bit": 0,
+   "name": "Z1Z2",
+   "support": [
+    1,
+    2
+   ],
+   "syndrome": 1,
+   "syndrome_hex": "0x1"
+  },
+  {
+   "class_id": 5,
+   "index": 11,
+   "logical_bit": 1,
+   "name": "Z3Z4",
+   "support": [
+    3,
+    4
+   ],
+   "syndrome": 2,
+   "syndrome_hex": "0x2"
+  },
+  {
+   "class_id": 8,
+   "index": 12,
+   "logical_bit": 0,
+   "name": "Z4Z5",
+   "support": [
+    4,
+    5
+   ],
+   "syndrome": 4,
+   "syndrome_hex": "0x4"
+  },
+  {
+   "class_id": 17,
+   "index": 13,
+   "logical_bit": 1,
+   "name": "Z6Z7",
+   "support": [
+    6,
+    7
+   ],
+   "syndrome": 8,
+   "syndrome_hex": "0x8"
+  },
+  {
+   "class_id": 8,
+   "index": 14,
+   "logical_bit": 0,
+   "name": "Z7Z8",
+   "support": [
+    7,
+    8
+   ],
+   "syndrome": 4,
+   "syndrome_hex": "0x4"
+  },
+  {
+   "class_id": 10,
+   "index": 15,
+   "logical_bit": 0,
+   "name": "Z0Z3",
+   "support": [
+    0,
+    3
+   ],
+   "syndrome": 5,
+   "syndrome_hex": "0x5"
+  },
+  {
+   "class_id": 0,
+   "index": 16,
+   "logical_bit": 0,
+   "name": "Z3Z6",
+   "support": [
+    3,
+    6
+   ],
+   "syndrome": 0,
+   "syndrome_hex": "0x0"
+  },
+  {
+   "class_id": 10,
+   "index": 17,
+   "logical_bit": 0,
+   "name": "Z1Z4",
+   "support": [
+    1,
+    4
+   ],
+   "syndrome": 5,
+   "syndrome_hex": "0x5"
+  },
+  {
+   "class_id": 20,
+   "index": 18,
+   "logical_bit": 0,
+   "name": "Z4Z7",
+   "support": [
+    4,
+    7
+   ],
+   "syndrome": 10,
+   "syndrome_hex": "0xa"
+  },
+  {
+   "class_id": 0,
+   "index": 19,
+   "logical_bit": 0,
+   "name": "Z2Z5",
+   "support": [
+    2,
+    5
+   ],
+   "syndrome": 0,
+   "syndrome_hex": "0x0"
+  },
+  {
+   "class_id": 20,
+   "index": 20,
+   "logical_bit": 0,
+   "name": "Z5Z8",
+   "support": [
+    5,
+    8
+   ],
+   "syndrome": 10,
+   "syndrome_hex": "0xa"
+  }
+ ],
+ "Z": [
+  {
+   "class_id": 3,
+   "index": 0,
+   "logical_bit": 1,
+   "name": "X0",
+   "support": [
+    0
+   ],
+   "syndrome": 1,
+   "syndrome_hex": "0x1"
+  },
+  {
+   "class_id": 3,
+   "index": 1,
+   "logical_bit": 1,
+   "name": "X1",
+   "support": [
+    1
+   ],
+   "syndrome": 1,
+   "syndrome_hex": "0x1"
+  },
+  {
+   "class_id": 5,
+   "index": 2,
+   "logical_bit": 1,
+   "name": "X2",
+   "support": [
+    2
+   ],
+   "syndrome": 2,
+   "syndrome_hex": "0x2"
+  },
+  {
+   "class_id": 10,
+   "index": 3,
+   "logical_bit": 0,
+   "name": "X3",
+   "support": [
+    3
+   ],
+   "syndrome": 5,
+   "syndrome_hex": "0x5"
+  },
+  {
+   "class_id": 18,
+   "index": 4,
+   "logical_bit": 0,
+   "name": "X4",
+   "support": [
+    4
+   ],
+   "syndrome": 9,
+   "syndrome_hex": "0x9"
+  },
+  {
+   "class_id": 20,
+   "index": 5,
+   "logical_bit": 0,
+   "name": "X5",
+   "support": [
+    5
+   ],
+   "syndrome": 10,
+   "syndrome_hex": "0xa"
+  },
+  {
+   "class_id": 8,
+   "index": 6,
+   "logical_bit": 0,
+   "name": "X6",
+   "support": [
+    6
+   ],
+   "syndrome": 4,
+   "syndrome_hex": "0x4"
+  },
+  {
+   "class_id": 16,
+   "index": 7,
+   "logical_bit": 0,
+   "name": "X7",
+   "support": [
+    7
+   ],
+   "syndrome": 8,
+   "syndrome_hex": "0x8"
+  },
+  {
+   "class_id": 16,
+   "index": 8,
+   "logical_bit": 0,
+   "name": "X8",
+   "support": [
+    8
+   ],
+   "syndrome": 8,
+   "syndrome_hex": "0x8"
+  },
+  {
+   "class_id": 0,
+   "index": 9,
+   "logical_bit": 0,
+   "name": "X0X1",
+   "support": [
+    0,
+    1
+   ],
+   "syndrome": 0,
+   "syndrome_hex": "0x0"
+  },
+  {
+   "class_id": 6,
+   "index": 10,
+   "logical_bit": 0,
+   "name": "X1X2",
+   "support": [
+    1,
+    2
+   ],
+   "syndrome": 3,
+   "syndrome_hex": "0x3"
+  },
+  {
+   "class_id": 24,
+   "index": 11,
+   "logical_bit": 0,
+   "name": "X3X4",
+   "support": [
+    3,
+    4
+   ],
+   "syndrome": 12,
+   "syndrome_hex": "0xc"
+  },
+  {
+   "class_id": 6,
+   "index": 12,
+   "logical_bit": 0,
+   "name": "X4X5",
+   "support": [
+    4,
+    5
+   ],
+   "syndrome": 3,
+   "syndrome_hex": "0x3"
+  },
+  {
+   "class_id": 24,
+   "index": 13,
+   "logical_bit": 0,
+   "name": "X6X7",
+   "support": [
+    6,
+    7
+   ],
+   "syndrome": 12,
+   "syndrome_hex": "0xc"
+  },
+  {
+   "class_id": 0,
+   "index": 14,
+   "logical_bit": 0,
+   "name": "X7X8",
+   "support": [
+    7,
+    8
+   ],
+   "syndrome": 0,
+   "syndrome_hex": "0x0"
+  },
+  {
+   "class_id": 9,
+   "index": 15,
+   "logical_bit": 1,
+   "name": "X0X3",
+   "support": [
+    0,
+    3
+   ],
+   "syndrome": 4,
+   "syndrome_hex": "0x4"
+  },
+  {
+   "class_id": 2,
+   "index": 16,
+   "logical_bit": 0,
+   "name": "X3X6",
+   "support": [
+    3,
+    6
+   ],
+   "syndrome": 1,
+   "syndrome_hex": "0x1"
+  },
+  {
+   "class_id": 17,
+   "index": 17,
+   "logical_bit": 1,
+   "name": "X1X4",
+   "support": [
+    1,
+    4
+   ],
+   "syndrome": 8,
+   "syndrome_hex": "0x8"
+  },
+  {
+   "class_id": 2,
+   "index": 18,
+   "logical_bit": 0,
+   "name": "X4X7",
+   "support": [
+    4,
+    7
+   ],
+   "syndrome": 1,
+   "syndrome_hex": "0x1"
+  },
+  {
+   "class_id": 17,
+   "index": 19,
+   "logical_bit": 1,
+   "name": "X2X5",
+   "support": [
+    2,
+    5
+   ],
+   "syndrome": 8,
+   "syndrome_hex": "0x8"
+  },
+  {
+   "class_id": 4,
+   "index": 20,
+   "logical_bit": 0,
+   "name": "X5X8",
+   "support": [
+    5,
+    8
+   ],
+   "syndrome": 2,
+   "syndrome_hex": "0x2"
+  }
+ ]
+}
