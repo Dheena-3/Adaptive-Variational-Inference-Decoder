@@ -7,7 +7,7 @@ plugins: typeguard-4.1.5, cov-4.1.0, rerunfailures-12.0, colcon-core-0.20.1, Non
 collecting ... collected 4 items / 2 deselected / 2 selected
 
 tests/unit/test_label_budget.py::test_label_budget_sweep[Z3 burst] 
-=== label budget, Z3 burst (p=0.08), W=4096, 100 repeats, 146s ===
+=== label budget, Z3 burst (p=0.08), W=4096, 100 repeats, 139s ===
 optimum 5.71%   right weights 5.99%   wrong alias 11.94%   threshold 8.96%
 repo 16-bin fit on same windows: mean 11.79%
      N  mean LER   +-95%  wrong alias  overhead   cost us
@@ -19,7 +19,7 @@ repo 16-bin fit on same windows: mean 11.79%
   1024      5.99    0.00          0%     20.0%   pending
 PASSED [ 50%]
 tests/unit/test_label_budget.py::test_label_budget_sweep[Z4Z5 burst] 
-=== label budget, Z4Z5 burst (p=0.08), W=4096, 100 repeats, 156s ===
+=== label budget, Z4Z5 burst (p=0.08), W=4096, 100 repeats, 133s ===
 optimum 5.71%   right weights 5.86%   wrong alias 11.82%   threshold 8.84%
 repo 16-bin fit on same windows: mean 6.20%
      N  mean LER   +-95%  wrong alias  overhead   cost us
@@ -31,4 +31,4 @@ repo 16-bin fit on same windows: mean 6.20%
   1024      5.93    0.12          1%     20.0%   pending
 PASSED [100%]
 
-================= 2 passed, 2 deselected in 319.12s (0:05:19) ==================
+================= 2 passed, 2 deselected in 286.01s (0:04:46) ==================
