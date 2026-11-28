@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--dir", default="tests/unit/artifacts")
-ap.add_argument("--out", default="figures")
+ap.add_argument("--out", default="figures/07_logical_oracle_calibration")
 a = ap.parse_args()
 D, O = Path(a.dir), Path(a.out)
 O.mkdir(exist_ok=True)
